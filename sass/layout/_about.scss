@@ -1,7 +1,9 @@
-.about.section {
-  padding-top: 0;
+.about {
+  &.section {
+    padding-top: 0;
+  }
 }
-.about-title {
+.about__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -12,23 +14,23 @@
   margin-bottom: 50px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-right: -30px;
 }
 
-.about-item {
+.about__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-right: 30px;
 }
 
-.about-thumb {
+.about__thumb {
   position: relative;
 }
-.about-text {
+.about__text {
   position: absolute;
   bottom: 0;
   font-weight: 700;
